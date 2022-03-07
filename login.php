@@ -51,57 +51,7 @@ class Users extends SQLite3
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
-<style>
-   body {
-        background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    }
-  h5 {
-    color: red;
-    text-align: center;
-  }
-  h1 {
-    font-family: 'Smooch Sans', sans-serif;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    border:2px solid black;
-    margin:2rem auto;
-    padding:10%;
-    max-width:50%;
-    border-radius:10px;
-    background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  form {
-    margin:0.75rem auto;
-  }
-
-  input {
-    margin:1rem auto;
-  }
-  .navigation {
-    display:flex;
-    justify-content:center;
-    margin-top:2rem;
-  }
-  .navigation button {
-    margin:0 1rem;
-  }
-  button[type="submit"] {
-    width:80px;
-    font-weight:700;
-    margin:0 auto;
-    display:flex;
-    text-align:center;
-    justify-content:center;
-  }
-</style>
+<link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
 
